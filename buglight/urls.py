@@ -18,10 +18,12 @@ from django.contrib import admin
 from accounts import urls as account_urls
 from home import urls as home_urls
 from bugs import urls as bugs_urls
+from django.views import static
+
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^accounts/', include(account_urls)),
     url(r'^', include(home_urls)),
+    url(r'^accounts/', include(account_urls)),
     url(r'^bugs/', include(bugs_urls))
 ]
