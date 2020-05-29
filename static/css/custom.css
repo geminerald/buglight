@@ -41,29 +41,43 @@ $gradient-top-left: linear-gradient(225deg, #00020eff, #030a3eff, #072e65ff, #41
 $gradient-bottom-left: linear-gradient(315deg, #00020eff, #030a3eff, #072e65ff, #4178aaff, #ff47daff, #fefcfbff);
 $gradient-radial: radial-gradient(#00020eff, #030a3eff, #072e65ff, #4178aaff, #ff47daff, #fefcfbff);
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;   
-}
+
+
+
 
 body{
     height: 200vh;
 }
 
+.navbar-default{
+    background: transparent;
+    border: none;
+}
+
+.nav{
+    padding-right: 50px;
+}
+
 .home-bg{
     min-height: 100vh;
-    min-width: 100%;
     background-image: url('../images/home-bg-image.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-color: rgba(0,0,0,0.2);
+    position: absolute;
+    left:0;
+    top:0;
+}
+
+.navbar-brand{
+    color: #fefcfb;
 }
 
 .home-intro{
-    background-color: #fafafa;
-    border: 2px solid #ffffff;
-    width: 80%;
+    background-color: #fefcfb;
+    border: 2px solid #fefcfb;
+    width: 40%;
+    height: 200px;
     margin: 100px auto;
     padding: 20px;
     border-radius: 2px;
@@ -75,9 +89,10 @@ body{
 
 .home-intro h3{
     text-align: center;
+    color: #4178AA;
 }
 
 .navbar-fixed-top.scrolled {
-  background-color: #fafafa !important;
+  background-color: #030a3e !important;
   transition: background-color 200ms linear;
 }
