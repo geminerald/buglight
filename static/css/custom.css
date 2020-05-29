@@ -49,13 +49,16 @@ nav{
     letter-spacing: 5px;
     font-size: 20px;
     text-decoration: none;
-
 }
+
+
 
 .nav-links{
     display: flex;
     width:30%;
     justify-content: space-around;
+    align-items: center;
+    margin-bottom: 0;
 
 }
 
@@ -140,7 +143,7 @@ body{
 }
 
     .nav-links{
-        position: absolute;;
+        position: absolute;
         right:0px;
         top: 8vh;
         height:50vh;
