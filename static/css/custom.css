@@ -1,4 +1,4 @@
-/* CSS */
+/* Colours */
 :root {
   --rich-black: #00020e;
   --oxford-blue: #030a3e;
@@ -8,58 +8,8 @@
   --white: #fefcfb;
 }
 
+/* Universals */
 
-
-body{
-    min-height: 200vh;
-}
-
-.navbar-default{
-    background: transparent;
-    border: none;
-}
-
-
-
-.home-bg{
-    background-image: url('../images/home-bg-image.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: absolute;
-    top: 0;
-    left: 0;
-    min-height: 100vh;
-    min-width: 100%;
-}
-
-.navbar-brand{
-    color: var(--white);
-    text-decoration: none;
-}
-
-.home-intro{
-    background-color: var(--white);
-    border: 2px solid var(--white);
-    width: 40%;
-    min-height: 200px;
-    margin: 100px auto;
-    padding: 20px;
-    border-radius: 2px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-direction: column;
-}
-
-.home-intro h3{
-    text-align: center;
-    color: var(--blue-yonder);
-}
-
-.navbar-fixed-top.scrolled {
-  background-color: var(--royal-blue-dark) !important;
-  transition: background-color 200ms linear;
-}
 
 *{
     padding:0;
@@ -67,6 +17,22 @@ body{
     box-sizing: border-box;
 }
 
+
+body{
+    min-height: 200vh;
+}
+
+
+/* Nav */
+.navbar-default{
+    background: transparent;
+    border: none;
+}
+
+.navbar-brand{
+    color: var(--white);
+    text-decoration: none;
+}
 
 
 nav{
@@ -120,6 +86,49 @@ nav{
 
 }
 
+
+/* Home */
+
+.home-bg{
+    background-image: url('../images/home-bg-image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 100vh;
+    min-width: 100%;
+}
+
+
+.home-intro{
+    background-color: var(--white);
+    border: 2px solid var(--white);
+    width: 40%;
+    min-height: 200px;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.home-intro h3{
+    text-align: center;
+    color: var(--blue-yonder);
+}
+
+
+
+.navbar-fixed-top.scrolled {
+  background-color: var(--royal-blue-dark) !important;
+  transition: background-color 200ms linear;
+}
+
+/* Media Queries */
+
 @media screen and (max-width:1068px){
     .nav-links{
         width: 50%;
@@ -154,6 +163,9 @@ body{
 .nav-active{
     transform:translateX(0%);
 }
+
+
+/* Keyframes */
 
 @keyframes navLinkFade{
     from{
