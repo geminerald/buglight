@@ -90,6 +90,11 @@ nav{
 }
 
 
+.navbar-fixed-top.scrolled {
+  background-color: var(--royal-blue-dark) !important;
+  transition: background-color 200ms linear;
+}
+
 /* Home */
 
 .home-bg{
@@ -123,12 +128,27 @@ nav{
     color: var(--blue-yonder);
 }
 
-
-
-.navbar-fixed-top.scrolled {
-  background-color: var(--royal-blue-dark) !important;
-  transition: background-color 200ms linear;
+.about-us{
+    background-color: var(--royal-blue-dark);
+    position: relative;
+    top: 110vh;
+    height: 80vh;
+    display: flex;
+    flex-flow: row wrap;
 }
+
+.card{
+    background-color: var(--white);
+    height: 200px;
+    width: 30%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
 
 /* Media Queries */
 
