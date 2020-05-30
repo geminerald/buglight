@@ -129,12 +129,14 @@ nav{
 }
 
 .about-us{
-    background-color: var(--royal-blue-dark);
+    background-color: var(--oxford-blue);
     position: relative;
     top: 110vh;
-    height: 80vh;
+    height: 100vh;
+    width: auto;
     display: flex;
     flex-flow: row wrap;
+
 }
 
 .card{
@@ -149,6 +151,15 @@ nav{
 
 }
 
+/* Footer  */
+
+footer{
+    width: 100%;
+    background-color: var(--white);
+    position: sticky;
+    height: 10vh;
+    top: 90vh;
+}
 
 /* Media Queries */
 
