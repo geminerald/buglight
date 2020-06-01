@@ -177,9 +177,15 @@ nav{
 }
 
 .testimonials{
-position: absolute;
+    position: absolute;
     top: 220vh;
     left: 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
 }
 
 /* Style the container with a rounded border, grey background and some padding and margin */
