@@ -133,9 +133,10 @@ nav{
     position: relative;
     top: 110vh;
     height: 100vh;
-    width: auto;
+    width: 100%;
     display: flex;
     flex-flow: row wrap;
+
 
 }
 
@@ -151,14 +152,25 @@ nav{
 
 }
 
+.card h4{
+    position: relative;
+    top: 0;
+}
+
+.card p{
+    margin:10px;
+    text-align: center;
+}
+
 /* Footer  */
 
 footer{
     width: 100%;
     background-color: var(--white);
-    position: sticky;
+    position: fixed;
     height: 10vh;
-    top: 90vh;
+    margin-top:50px;
+    bottom: 0;
 }
 
 /* Media Queries */
