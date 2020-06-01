@@ -42,7 +42,7 @@ body{
 
 nav{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     min-height: 8vh;
     font-family: 'Poppins', sans-serif;
@@ -64,6 +64,7 @@ nav{
     justify-content: space-around;
     align-items: center;
     margin-bottom: 0;
+    padding-right: 50px;
 
 }
 
@@ -107,40 +108,36 @@ nav{
     background-image: url('../images/home-bg-image.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    
     position: absolute;
     top: 0;
     left: 0;
     min-height: 100vh;
     min-width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 
 .home-intro{
-    background-color: var(--white);
-    border: 2px solid var(--white);
+    background-color: rgba(0,0, 0, 0.2);
     width: 40%;
     min-height: 200px;
-    margin: 100px auto;
-    padding: 20px;
+    margin: 50px auto;
     border-radius: 2px;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
     flex-direction: column;
 }
 
 .home-intro h3{
     text-align: center;
-    color: var(--blue-yonder);
+    color: var(--white);
     font-size: 4rem;
 }
 
 .home-intro p{
+    color: var(--white);
     font-size: 2rem;
+    padding: 2rem;
+    text-align: center;
 }
 
 .about-us{
