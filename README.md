@@ -35,11 +35,26 @@ the issues as required.
 
 ### User Requirements and Expectations
 
-
+These days internet shopping is more common than ever - yet as people become more familiar with it they also become more cautious and savvy with their purchases.
+Therefore providing the best UX, proper authentication and using secure payment gateways (in this case Stripe) is necessary to offer the best solution.
 
 #### User Requirements
 
+* Interact with a visually appealling and intuitive website.
+* Navigate with ease on any device.
+* Quickly grap the basic function and controls of the website and service.
+* Choose the version you wish to use (Free, Trial or Paid) and purchase it quickly and easily.
+* Create new bug reports and add them to the database.
+* Update bugs with a few clicks.
+* Can reach out to the developer as required.
+
+
 #### User Expectations
+
+* Safe storage of any details provided.
+* No payment information stored - once the transaction is completed the business has no need to store the user's payment information.
+* Service can be used across any device with no drop in functionality.
+* Easy and intuitive navigation.
 
 ## Design
 
