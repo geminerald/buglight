@@ -61,6 +61,13 @@ Therefore providing the best UX, proper authentication and using secure payment 
 As this is targeted at the technology sector the colour scheme is based on a 'Dark Mode' colour palate since this is common and preferred in this sector and is also prevelant in the imagery of
 technology. The colour scheme was taken from coolers.co and is currently as follows (TBC):
 
+### Fonts
+
+### Icons
+
+### Colours
+
+
 * Rich Black: #00020e;
 * Oxford Blue: #030a3e;
 * Dark Royal Blue: #072e65;
@@ -68,3 +75,21 @@ technology. The colour scheme was taken from coolers.co and is currently as foll
 * Purple Pizzaz #ff47daff;
 * White #fefcfb;
 
+### Root Styles
+
+
+### Images
+
+## Wireframes
+
+### Data Schema
+
+### Flowchart
+
+## Models:
+
+## Features:
+
+### Developed Features
+
+### Features to be Developed
