@@ -30,7 +30,8 @@ the issues as required.
 ### User Stories:
 
 * "I need a way to track issues for projects that I was working on. Notepad or sticky notes are just cluttered and often deleted or impossible to find" - John
-* "
+* "I always think that you should let someone try a product before they buy it. It just makes it easier for everyone to get what they want" - Deborah
+* "On a website you want to make sure that you only have the options you need - you don't want it cluttered up with hundreds of buttons you don't understand let alone use" - Victor
 
 ### User Requirements and Expectations
 
